@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Note: To run this project in your Local Machine You need to have NodeJs
 
 if you dont want to install NodeJs I Deployed the App on GitHub Pages so you can test it and don't bother yourself 
