@@ -4,6 +4,10 @@ import './SearchBar.css';
 
 function SearchBar({ searchChanged, loading }) {
   const [searchString, setSearchString] = useState('')
+
+  // This is the logic of Debounce time it limits the times an event fires.
+  // No matter how many times the user fires the event, the function will be executed only after a specific time after the last event fired
+  // We can prevent unnecessary API calls
   useEffect(() => {
     const debounceTime = setTimeout(() => {
       searchChanged(searchString)
