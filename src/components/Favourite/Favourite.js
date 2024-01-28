@@ -15,7 +15,10 @@ function Favourite() {
   }
 
   return (
-    <MovieList movieListData={favouriteMovies} clickHandler={handleFavouriteMoviesList}></MovieList>
+    <>
+      {favouriteMovies.length === 0 && <h1 className='no-favourite'>No Favourite Movies</h1>}
+      <MovieList movieListData={favouriteMovies} clickHandler={handleFavouriteMoviesList}></MovieList>
+    </>
   )
 }
 
