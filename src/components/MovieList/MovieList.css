@@ -1,0 +1,13 @@
+.movie-list-continer{
+  display: flex;
+  justify-content: center;
+
+}
+.movie-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 1210px;
+  padding: 20px 0;
+}

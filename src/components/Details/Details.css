@@ -1,0 +1,77 @@
+.details-container{
+  display: flex;
+  justify-content: center;
+}
+
+.back-link{
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  width: fit-content;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details-page{
+  color: white;
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-side{
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  
+}
+
+.right-side h1{
+  margin-bottom: 10px;
+}
+
+.detail-image-poster{
+  width: 230px;
+}
+
+.detail-image-poster img{
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  object-fit: cover;
+}
+
+.plot{
+  margin: 10px 0;
+  width: 500px;
+  max-width: 100%;
+}
+
+.add-to-favourite button{
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 870px){
+  .right-side{
+    justify-content: center;
+  }
+  .plot{
+    width: unset;
+  }
+}

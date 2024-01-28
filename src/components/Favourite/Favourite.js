@@ -1,0 +1,22 @@
+import React, { useEffect, useState } from 'react';
+import "./Favourite.css"
+import MovieList from '../MovieList/MovieList';
+
+function Favourite() {
+  const [favouriteMovies, setFavouriteMovies] = useState([]);
+
+  useEffect(() => {
+    // Getting the favouriteMovies from local Storage
+    const favouriteMoviesList = JSON.parse(localStorage.getItem('favouriteMovies')) || [];
+    setFavouriteMovies(favouriteMoviesList)
+  }, []);
+
+  function handleFavouriteMoviesList(imdbId) {
+  }
+
+  return (
+    <MovieList movieListData={favouriteMovies} clickHandler={handleFavouriteMoviesList}></MovieList>
+  )
+}
+
+export default Favourite
