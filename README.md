@@ -1,6 +1,6 @@
-# Note: To run this project in your Local Machine You need to have NodeJs
+# Note: To run this project on your Local Machine You need to have NodeJs
 
-if you dont want to install NodeJs I Deployed the App on GitHub Pages so you can test it and don't bother yourself 
+if you do not want to install NodeJs I Deployed the App on GitHub Pages so you can test it and don't bother yourself 
 with running it locally and using the terminal to execute some script like npm install
 
 the URL for it is https://mazen103501.github.io/movie-search-app/
@@ -11,13 +11,13 @@ In the project directory, you can run:
 
 ### `npm install`
 
-After cloning the project into you Local Machine and installing NodeJs on it
+After cloning the project into your Local Machine and installing NodeJs on it
 
 go to the cloned repository and open the terminal in it then write 
 
 npm install or npm i (the same thing) 
 
-you should wait for little bit of time so it installs the dependencies
+you should wait for a little bit of time so it installs the dependencies
 
 
 ### `npm start`
