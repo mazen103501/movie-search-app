@@ -37,8 +37,8 @@ function Home() {
     <>
       <div >
         <SearchBar searchChanged={handleSeachText} loading={loading}></SearchBar>
-        {(data?.Search || cachedValues?.Search) && <MovieList movieListData={data?.Search || cachedValues?.Search} clickHandler={handleClick}></MovieList>}
         {error && <h2 className='error-message'>*{error}</h2>}
+        {(data?.Search || cachedValues?.Search) && <MovieList movieListData={data?.Search || cachedValues?.Search} clickHandler={handleClick}></MovieList>}
         <Pagination onPageChange={onPageChange} currentPage={page} totalCount={data?.totalResults}></Pagination>
       </div>
     </>

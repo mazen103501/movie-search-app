@@ -23,7 +23,8 @@ export const router = createHashRouter([
         path: "/favourite",
         element: <Favourite></Favourite>
       }
-    ]
+    ],
+    errorElement: <h1 className="error">Error 404 (Not found)</h1>
   },
 
 ]);

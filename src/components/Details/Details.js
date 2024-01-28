@@ -35,7 +35,7 @@ function Details() {
           <div className='movie-info'>
             <div className='right-side'>
               <div className='detail-image-poster'>
-                <img src={data?.Poster} alt='poster' />
+                <img src={data?.Poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg' : data?.Poster} alt='movie-poster' />
               </div>
               <div>
                 <h1>{data?.Title}</h1>
