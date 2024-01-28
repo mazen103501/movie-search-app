@@ -35,13 +35,13 @@ function Details() {
           <div className='movie-info'>
             <div className='right-side'>
               <div className='detail-image-poster'>
-                <img src={data.Poster} alt='poster' />
+                <img src={data?.Poster} alt='poster' />
               </div>
               <div>
-                <h1>{data.Title}</h1>
-                <p>{data.Ratings[0].Value} {data.Genre}</p>
-                <p>{data.Released}</p>
-                <p className='plot'>{data.Plot} {data.Awards}</p>
+                <h1>{data?.Title}</h1>
+                <p>{data?.Ratings[0]?.Value} {data?.Genre}</p>
+                <p>{data?.Released}</p>
+                <p className='plot'>{data?.Plot} {data?.Awards}</p>
               </div>
             </div>
             <div className='add-to-favourite' onClick={handleFavourite}>
