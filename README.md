@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Note: To run this project in your Local Machine You need to have Node JS
+# Note: To run this project in your Local Machine You need to have NodeJs
+
+if you dont want to install NodeJs I Deployed the App on GitHub Pages so you can test it and don't bother yourself 
+with running it locally and using the terminal to execute some script like npm install
+
+the URL for it is https://mazen103501.github.io/movie-search-app/
 
 ## Available Scripts
 
